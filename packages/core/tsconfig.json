@@ -1,0 +1,1 @@
+{ "extends": "@school/config/tsconfig.base.json", "compilerOptions": { "jsx": "preserve" }, "include": ["src"] }

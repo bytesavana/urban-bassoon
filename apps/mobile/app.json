@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "School AI",
+    "slug": "school-ai",
+    "scheme": "schoolai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bytesavana.schoolai"
+    },
+    "android": {
+      "package": "com.bytesavana.schoolai",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F6F4",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
+  }
+}

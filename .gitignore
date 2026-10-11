@@ -1,0 +1,12 @@
+node_modules
+dist
+.turbo
+.expo
+.next
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__
+.venv

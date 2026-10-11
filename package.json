@@ -1,0 +1,17 @@
+{
+  "name": "modern-school",
+  "private": true,
+  "packageManager": "pnpm@11.13.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "pnpm --filter @school/web dev",
+    "dev:mobile": "pnpm --filter @school/mobile start",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.0"
+  }
+}

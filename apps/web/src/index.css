@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Mirrors @school/design-tokens (colors). Keep in sync. */
+@theme {
+  --font-sans: "Public Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-bg: #F7F6F4;
+  --color-surface: #FFFFFF;
+  --color-canvas: #FBFAF9;
+  --color-border: #E4E1DC;
+  --color-border-strong: #C7C3BC;
+  --color-divider: #EEECE8;
+  --color-hover: #F1EFEC;
+  --color-kbd: #EDEBE7;
+  --color-ink: #1D1B18;
+  --color-ink2: #4A463F;
+  --color-muted: #716C64;
+  --color-subtle: #9A958C;
+  --color-accent: #BF5B3D;
+  --color-accent-hover: #9C4A31;
+  --color-accent-soft: #F5E6DE;
+  --color-success: #2F8F5B;
+  --color-success-soft: #EAF6EF;
+  --color-success-text: #4A6C57;
+  --color-danger: #C94A3B;
+  --color-danger-soft: #FBEAE7;
+  --color-danger-text: #8A5349;
+  --color-warning: #B9790C;
+  --color-info: #3B6FB0;
+  --color-toggle-off: #D7D4CE;
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: var(--font-sans); font-size: 14px; line-height: 1.45; color: var(--color-ink); background: var(--color-bg); }
+* { box-sizing: border-box; }
+::placeholder { color: #A6A19A; }
+button { font: inherit; cursor: pointer; }
+button:disabled { cursor: default; }
+@keyframes dotPulse { 0%, 100% { opacity: .25 } 50% { opacity: 1 } }
